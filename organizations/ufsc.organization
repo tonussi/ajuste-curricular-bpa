@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="ufsc">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="lpt">
+      <firstName>Lucas</firstName>
+      <lastName>Tonussi</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">lpt123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="van">
+      <firstName>Vanessa</firstName>
+      <lastName>Ribeiro</lastName>
+      <manager>lpt</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">van123</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="tecnico-exercicio-den-prograd">
+      <displayName>tecnico-exercicio-den-prograd</displayName>
+    </role>
+    <role name="pro-reitor-graduacao">
+      <displayName>pro-reitor-graduacao</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="pro-reitor-graduacao">
+      <displayName>reitor-prograd</displayName>
+    </group>
+    <group name="tecnico-exercicio-den-prograd">
+      <displayName>tecnico-exercicio-den-prograd</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>lpt</userName>
+      <roleName>pro-reitor-graduacao</roleName>
+      <groupName>pro-reitor-graduacao</groupName>
+    </membership>
+    <membership>
+      <userName>van</userName>
+      <roleName>tecnico-exercicio-den-prograd</roleName>
+      <groupName>tecnico-exercicio-den-prograd</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
