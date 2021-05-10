@@ -31,7 +31,7 @@
   </roles>
   <groups>
     <group name="pro-reitor-graduacao">
-      <displayName>reitor-prograd</displayName>
+      <displayName>pro-reitor-graduacao</displayName>
     </group>
     <group name="tecnico-exercicio-den-prograd">
       <displayName>tecnico-exercicio-den-prograd</displayName>

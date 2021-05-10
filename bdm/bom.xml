@@ -3,18 +3,19 @@
     <businessObjects>
         <businessObject qualifiedName="com.company.model.Portaria">
             <fields>
-                <field type="STRING" length="255" name="cargaHorariaTotalSemanal" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="cargaHorariaTeoricaSemestral" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="cargaHorariaPraticaSemestral" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="cargaHorariaTotalSemestral" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="nroPortaria" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="codigoDisciplina" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="nomeDocente" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="codigoDepartamento" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="nomeDisciplina" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="descricaoEmenta" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="nomeDepartamento" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="cargaHorariaTotalSemanal" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="cargaHorariaTeoricaSemestral" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="cargaHorariaPraticaSemestral" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="cargaHorariaTotalSemestral" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="nroPortaria" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="codigoDisciplina" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="codigoDepartamento" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="nomeDisciplina" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="descricaoEmenta" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="nomeDepartamento" nullable="false" collection="false"/>
                 <field type="STRING" length="255" name="dataLancamento" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="nroProcessoCriacaoDisciplina" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="nomeProReitorGrad" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="assinaturaDigital" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>

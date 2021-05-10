@@ -12,135 +12,157 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_dRl-6K0xEeu-2IxxI52J7g" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_dRl-6a0xEeu-2IxxI52J7g" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_dRl-6q0xEeu-2IxxI52J7g" name="" content="" returnTypeFixed="true"/>
-          <operations xmi:type="expression:Operation" xmi:id="_-lCOIK00EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-lCOIa00EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-lCOIq00EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_g9Q5zrAuEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_g9Q5z7AuEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_g9Q50LAuEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-lCOI600EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.cargaHorariaTotalSemanal" content="portariaAjusteCurricularInput?.cargaHorariaTotalSemanal" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-lCOJK00EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_g9Q50bAuEeutU43AkzFzNw" name="portariaAjusteCurricularInput.cargaHorariaTotalSemanal" content="portariaAjusteCurricularInput?.cargaHorariaTotalSemanal" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_g9Q50rAuEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-lCOJa00EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setCargaHorariaTotalSemanal">
+            <operator xmi:type="expression:Operator" xmi:id="_g9Q507AuEeutU43AkzFzNw" type="JAVA_METHOD" expression="setCargaHorariaTotalSemanal">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_-lCOJq00EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-lCOJ600EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-lCOKK00EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_g9Q51LAuEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_g9Q51bAuEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_g9Q51rAuEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-lC1MK00EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.cargaHorariaTeoricaSemestral" content="portariaAjusteCurricularInput?.cargaHorariaTeoricaSemestral" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-lC1Ma00EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_g9Q517AuEeutU43AkzFzNw" name="portariaAjusteCurricularInput.cargaHorariaTeoricaSemestral" content="portariaAjusteCurricularInput?.cargaHorariaTeoricaSemestral" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_g9Q52LAuEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-lC1Mq00EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setCargaHorariaTeoricaSemestral">
+            <operator xmi:type="expression:Operator" xmi:id="_g9Q52bAuEeutU43AkzFzNw" type="JAVA_METHOD" expression="setCargaHorariaTeoricaSemestral">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_-lC1M600EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-lC1NK00EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-lC1Na00EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_g9Q52rAuEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_g9Q527AuEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_g9Q53LAuEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-lC1Nq00EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.cargaHorariaPraticaSemestral" content="portariaAjusteCurricularInput?.cargaHorariaPraticaSemestral" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-lC1N600EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_g9Q53bAuEeutU43AkzFzNw" name="portariaAjusteCurricularInput.cargaHorariaPraticaSemestral" content="portariaAjusteCurricularInput?.cargaHorariaPraticaSemestral" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_g9Q53rAuEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-lC1OK00EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setCargaHorariaPraticaSemestral">
+            <operator xmi:type="expression:Operator" xmi:id="_g9Q537AuEeutU43AkzFzNw" type="JAVA_METHOD" expression="setCargaHorariaPraticaSemestral">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_-lC1Oa00EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-lC1Oq00EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-lC1O600EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_g9Q54LAuEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_g9Q54bAuEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_g9Q54rAuEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-lC1PK00EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.cargaHorariaTotalSemestral" content="portariaAjusteCurricularInput?.cargaHorariaTotalSemestral" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-lC1Pa00EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_g9Q547AuEeutU43AkzFzNw" name="portariaAjusteCurricularInput.cargaHorariaTotalSemestral" content="portariaAjusteCurricularInput?.cargaHorariaTotalSemestral" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_g9Q55LAuEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-lC1Pq00EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setCargaHorariaTotalSemestral">
+            <operator xmi:type="expression:Operator" xmi:id="_g9Q55bAuEeutU43AkzFzNw" type="JAVA_METHOD" expression="setCargaHorariaTotalSemestral">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_-lC1P600EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-lC1QK00EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-lC1Qa00EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_g9Q55rAuEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_g9Q557AuEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_g9Q56LAuEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-lC1Qq00EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.nroPortaria" content="portariaAjusteCurricularInput?.nroPortaria" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-lC1Q600EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_g9Q56bAuEeutU43AkzFzNw" name="portariaAjusteCurricularInput.nroPortaria" content="portariaAjusteCurricularInput?.nroPortaria" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_g9Q56rAuEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-lC1RK00EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setNroPortaria">
+            <operator xmi:type="expression:Operator" xmi:id="_g9Q567AuEeutU43AkzFzNw" type="JAVA_METHOD" expression="setNroPortaria">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_-lC1Ra00EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-lC1Rq00EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-lC1R600EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_g9Q57LAuEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_g9Q57bAuEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_g9Q57rAuEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-lC1SK00EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.codigoDisciplina" content="portariaAjusteCurricularInput?.codigoDisciplina" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-lC1Sa00EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_g9Q577AuEeutU43AkzFzNw" name="portariaAjusteCurricularInput.codigoDisciplina" content="portariaAjusteCurricularInput?.codigoDisciplina" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_g9Q58LAuEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-lC1Sq00EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setCodigoDisciplina">
+            <operator xmi:type="expression:Operator" xmi:id="_g9Q58bAuEeutU43AkzFzNw" type="JAVA_METHOD" expression="setCodigoDisciplina">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_-lC1S600EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-lC1TK00EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-lC1Ta00EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_g9Q58rAuEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_g9Q587AuEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_g9Q59LAuEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-lC1Tq00EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.nomeDocente" content="portariaAjusteCurricularInput?.nomeDocente" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-lC1T600EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_g9Q59bAuEeutU43AkzFzNw" name="portariaAjusteCurricularInput.nomeProReitorGrad" content="//import org.bonitasoft.engine.api.IdentityAPI;&#xA;//IdentityAPI identity = apiAccessor.getIdentityAPI();&#xA;//return identity.getActiveUsersInRole(&quot;pro-reitor-graduacao&quot;);&#xA;portariaAjusteCurricularInput?.nomeProReitorGrad&#xA;" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_1DhekLBIEeuUGry6jKu2kw" name="portariaAjusteCurricularInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-lC1UK00EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setNomeDocente">
+            <operator xmi:type="expression:Operator" xmi:id="_g9Q597AuEeutU43AkzFzNw" type="JAVA_METHOD" expression="setNomeProReitorGrad">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_-lC1Ua00EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-lC1Uq00EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-lC1U600EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_g9Q5-LAuEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_g9Q5-bAuEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_g9Q5-rAuEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-lC1VK00EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.codigoDepartamento" content="portariaAjusteCurricularInput?.codigoDepartamento" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-lC1Va00EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_g9Q5-7AuEeutU43AkzFzNw" name="portariaAjusteCurricularInput.codigoDepartamento" content="portariaAjusteCurricularInput?.codigoDepartamento" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_g9Q5_LAuEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-lC1Vq00EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setCodigoDepartamento">
+            <operator xmi:type="expression:Operator" xmi:id="_g9Q5_bAuEeutU43AkzFzNw" type="JAVA_METHOD" expression="setCodigoDepartamento">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_-lC1V600EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-lC1WK00EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-lC1Wa00EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_g9Q5_rAuEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_g9Q5_7AuEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_g9Q6ALAuEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-lC1Wq00EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.nomeDisciplina" content="portariaAjusteCurricularInput?.nomeDisciplina" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-lC1W600EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_g9Q6AbAuEeutU43AkzFzNw" name="portariaAjusteCurricularInput.nomeDisciplina" content="portariaAjusteCurricularInput?.nomeDisciplina" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_g9Q6ArAuEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-lC1XK00EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setNomeDisciplina">
+            <operator xmi:type="expression:Operator" xmi:id="_g9Q6A7AuEeutU43AkzFzNw" type="JAVA_METHOD" expression="setNomeDisciplina">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_-lC1Xa00EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-lC1Xq00EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-lC1X600EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_g9Q6BLAuEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_g9Q6BbAuEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_g9Q6BrAuEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-lC1YK00EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.descricaoEmenta" content="portariaAjusteCurricularInput?.descricaoEmenta" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-lC1Ya00EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_g9Q6B7AuEeutU43AkzFzNw" name="portariaAjusteCurricularInput.descricaoEmenta" content="portariaAjusteCurricularInput?.descricaoEmenta" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_g9Q6CLAuEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-lC1Yq00EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setDescricaoEmenta">
+            <operator xmi:type="expression:Operator" xmi:id="_g9Q6CbAuEeutU43AkzFzNw" type="JAVA_METHOD" expression="setDescricaoEmenta">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_-lC1Y600EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-lC1ZK00EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-lC1Za00EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_g9Q6CrAuEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_g9Q6C7AuEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_g9Q6DLAuEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-lC1Zq00EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.nomeDepartamento" content="portariaAjusteCurricularInput?.nomeDepartamento" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-lC1Z600EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_g9Q6DbAuEeutU43AkzFzNw" name="portariaAjusteCurricularInput.nomeDepartamento" content="portariaAjusteCurricularInput?.nomeDepartamento" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_g9Q6DrAuEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-lC1aK00EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setNomeDepartamento">
+            <operator xmi:type="expression:Operator" xmi:id="_g9Q6D7AuEeutU43AkzFzNw" type="JAVA_METHOD" expression="setNomeDepartamento">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_-lC1aa00EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-lC1aq00EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-lC1a600EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_g9Q6ELAuEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_g9Q6EbAuEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_g9Q6ErAuEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-lC1bK00EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.dataLancamento" content="portariaAjusteCurricularInput?.dataLancamento" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-lC1ba00EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_g9Q6E7AuEeutU43AkzFzNw" name="portariaAjusteCurricularInput.dataLancamento" content="portariaAjusteCurricularInput?.dataLancamento" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_g9Q6FLAuEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-lC1bq00EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setDataLancamento">
+            <operator xmi:type="expression:Operator" xmi:id="_g9Q6FbAuEeutU43AkzFzNw" type="JAVA_METHOD" expression="setDataLancamento">
+              <inputTypes>java.lang.String</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_g9Q6FrAuEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_g9Q6F7AuEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_g9Q6GLAuEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_g9Q6GbAuEeutU43AkzFzNw" name="portariaAjusteCurricularInput.assinaturaDigital" content="portariaAjusteCurricularInput?.assinaturaDigital" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_8l4nULBJEeuUGry6jKu2kw" name="portariaAjusteCurricularInput" type="COMPLEX"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_g9Q6G7AuEeutU43AkzFzNw" type="JAVA_METHOD" expression="setAssinaturaDigital">
+              <inputTypes>java.lang.Boolean</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_ffav0LA7EeuUGry6jKu2kw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_ffav0bA7EeuUGry6jKu2kw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_f5I3YLA7EeuUGry6jKu2kw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_ffav0rA7EeuUGry6jKu2kw" name="portariaAjusteCurricularInput.nroProcessoCriacaoDisciplina" content="portariaAjusteCurricularInput?.nroProcessoCriacaoDisciplina&#xA;" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_ubYIALEbEeuf0e7JypUhFQ" name="portariaAjusteCurricularInput" type="COMPLEX"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_ffav07A7EeuUGry6jKu2kw" type="JAVA_METHOD" expression="setNroProcessoCriacaoDisciplina">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
@@ -153,20 +175,23 @@
             <targetForm xmi:type="expression:Expression" xmi:id="__mBKAK00EeuvSOVcsXUZdQ" name="portariaAjusteCurricularForm" content="b76dd7dc-405e-47db-839a-695c76ea5411" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_dRl-8q0xEeu-2IxxI52J7g">
-            <inputs xmi:type="process:ContractInput" xmi:id="_-lBAAK00EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" dataReference="portariaAjusteCurricular" createMode="false">
-              <inputs xmi:type="process:ContractInput" xmi:id="_-lBAAa00EeuvSOVcsXUZdQ" name="cargaHorariaTotalSemanal" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-lBAAq00EeuvSOVcsXUZdQ" name="cargaHorariaTeoricaSemestral" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-lBAA600EeuvSOVcsXUZdQ" name="cargaHorariaPraticaSemestral" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-lBABK00EeuvSOVcsXUZdQ" name="cargaHorariaTotalSemestral" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-lBABa00EeuvSOVcsXUZdQ" name="nroPortaria" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-lBABq00EeuvSOVcsXUZdQ" name="codigoDisciplina" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-lBAB600EeuvSOVcsXUZdQ" name="nomeDocente" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-lBACK00EeuvSOVcsXUZdQ" name="codigoDepartamento" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-lBACa00EeuvSOVcsXUZdQ" name="nomeDisciplina" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-lBACq00EeuvSOVcsXUZdQ" name="descricaoEmenta" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-lBAC600EeuvSOVcsXUZdQ" name="nomeDepartamento" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-lBADK00EeuvSOVcsXUZdQ" name="dataLancamento" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-lBADa00EeuvSOVcsXUZdQ" name="assinaturaDigital" type="BOOLEAN" createMode="false"/>
+            <inputs xmi:type="process:ContractInput" xmi:id="_g9Q5wLAuEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" dataReference="portariaAjusteCurricular">
+              <inputs xmi:type="process:ContractInput" xmi:id="_g9Q5wbAuEeutU43AkzFzNw" name="cargaHorariaTotalSemanal"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_g9Q5wrAuEeutU43AkzFzNw" name="cargaHorariaTeoricaSemestral"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_g9Q5w7AuEeutU43AkzFzNw" name="cargaHorariaPraticaSemestral"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_g9Q5xLAuEeutU43AkzFzNw" name="cargaHorariaTotalSemestral"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_g9Q5xbAuEeutU43AkzFzNw" name="nroPortaria"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_g9Q5xrAuEeutU43AkzFzNw" name="codigoDisciplina"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_g9Q5x7AuEeutU43AkzFzNw" name="nomeProReitorGrad"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_g9Q5yLAuEeutU43AkzFzNw" name="codigoDepartamento"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_g9Q5ybAuEeutU43AkzFzNw" name="nomeDisciplina"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_g9Q5yrAuEeutU43AkzFzNw" name="descricaoEmenta"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_g9Q5y7AuEeutU43AkzFzNw" name="nomeDepartamento"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_g9Q5zLAuEeutU43AkzFzNw" name="dataLancamento"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_g9Q5zbAuEeutU43AkzFzNw" name="assinaturaDigital" type="BOOLEAN"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_EU5fQLA7EeutU43AkzFzNw" name="nroProcessoCriacaoDisciplina">
+                <mapping xmi:type="process:ContractInputMapping" xmi:id="_EU5fQbA7EeutU43AkzFzNw"/>
+              </inputs>
             </inputs>
           </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_dRl-860xEeu-2IxxI52J7g" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -175,147 +200,158 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_JJbr4a0zEeuvSOVcsXUZdQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_JJbr4K0zEeuvSOVcsXUZdQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_JJbr4q0zEeuvSOVcsXUZdQ" name="" content="" returnTypeFixed="true"/>
-          <operations xmi:type="expression:Operation" xmi:id="_Dt9aUK02EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Dt9aUa02EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Dt9aUq02EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_xYoqnrAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_xYoqn7AvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_xYoqoLAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Dt9aU602EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.cargaHorariaTotalSemanal" content="portariaAjusteCurricularInput?.cargaHorariaTotalSemanal" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Dt9aVK02EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_xYoqobAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.cargaHorariaTotalSemanal" content="portariaAjusteCurricularInput?.cargaHorariaTotalSemanal" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_xYoqorAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Dt9aVa02EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setCargaHorariaTotalSemanal">
+            <operator xmi:type="expression:Operator" xmi:id="_xYoqo7AvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setCargaHorariaTotalSemanal">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Dt9aVq02EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Dt9aV602EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Dt9aWK02EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_xYoqpLAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_xYoqpbAvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_xYoqprAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Dt9aWa02EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.cargaHorariaTeoricaSemestral" content="portariaAjusteCurricularInput?.cargaHorariaTeoricaSemestral" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Dt9aWq02EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_xYoqp7AvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.cargaHorariaTeoricaSemestral" content="portariaAjusteCurricularInput?.cargaHorariaTeoricaSemestral" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_xYoqqLAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Dt9aW602EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setCargaHorariaTeoricaSemestral">
+            <operator xmi:type="expression:Operator" xmi:id="_xYoqqbAvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setCargaHorariaTeoricaSemestral">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Dt9aXK02EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Dt9aXa02EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Dt9aXq02EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_xYoqqrAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_xYoqq7AvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_xYoqrLAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Dt9aX602EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.cargaHorariaPraticaSemestral" content="portariaAjusteCurricularInput?.cargaHorariaPraticaSemestral" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Dt9aYK02EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_xYoqrbAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.cargaHorariaPraticaSemestral" content="portariaAjusteCurricularInput?.cargaHorariaPraticaSemestral" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_xYoqrrAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Dt9aYa02EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setCargaHorariaPraticaSemestral">
+            <operator xmi:type="expression:Operator" xmi:id="_xYoqr7AvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setCargaHorariaPraticaSemestral">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Dt9aYq02EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Dt9aY602EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Dt9aZK02EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_xYoqsLAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_xYoqsbAvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_xYoqsrAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Dt9aZa02EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.cargaHorariaTotalSemestral" content="portariaAjusteCurricularInput?.cargaHorariaTotalSemestral" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Dt9aZq02EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_xYoqs7AvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.cargaHorariaTotalSemestral" content="portariaAjusteCurricularInput?.cargaHorariaTotalSemestral" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_xYoqtLAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Dt9aZ602EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setCargaHorariaTotalSemestral">
+            <operator xmi:type="expression:Operator" xmi:id="_xYoqtbAvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setCargaHorariaTotalSemestral">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Dt9aaK02EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Dt9aaa02EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Dt9aaq02EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_xYoqtrAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_xYoqt7AvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_xYoquLAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Dt9aa602EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.nroPortaria" content="portariaAjusteCurricularInput?.nroPortaria" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Dt-BYK02EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_xYoqubAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.nroPortaria" content="portariaAjusteCurricularInput?.nroPortaria" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_xYoqurAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Dt-BYa02EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setNroPortaria">
+            <operator xmi:type="expression:Operator" xmi:id="_xYoqu7AvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setNroPortaria">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Dt-BYq02EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Dt-BY602EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Dt-BZK02EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_xYoqvLAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_xYoqvbAvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_xYoqvrAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Dt-BZa02EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.codigoDisciplina" content="portariaAjusteCurricularInput?.codigoDisciplina" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Dt-BZq02EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_xYoqv7AvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.codigoDisciplina" content="portariaAjusteCurricularInput?.codigoDisciplina" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_xYoqwLAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Dt-BZ602EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setCodigoDisciplina">
+            <operator xmi:type="expression:Operator" xmi:id="_xYoqwbAvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setCodigoDisciplina">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Dt-BaK02EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Dt-Baa02EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Dt-Baq02EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_xYoqwrAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_xYoqw7AvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_xYoqxLAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Dt-Ba602EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.nomeDocente" content="portariaAjusteCurricularInput?.nomeDocente" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Dt-BbK02EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_xYoqxbAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.nomeProReitorGrad" content="portariaAjusteCurricularInput?.nomeProReitorGrad" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_xYoqxrAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Dt-Bba02EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setNomeDocente">
+            <operator xmi:type="expression:Operator" xmi:id="_xYoqx7AvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setNomeProReitorGrad">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Dt-Bbq02EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Dt-Bb602EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Dt-BcK02EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_xYoqyLAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_xYoqybAvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_xYoqyrAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Dt-Bca02EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.codigoDepartamento" content="portariaAjusteCurricularInput?.codigoDepartamento" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Dt-Bcq02EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_xYoqy7AvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.codigoDepartamento" content="portariaAjusteCurricularInput?.codigoDepartamento" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_xYoqzLAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Dt-Bc602EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setCodigoDepartamento">
+            <operator xmi:type="expression:Operator" xmi:id="_xYoqzbAvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setCodigoDepartamento">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Dt-BdK02EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Dt-Bda02EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Dt-Bdq02EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_xYoqzrAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_xYoqz7AvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_xYoq0LAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Dt-Bd602EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.nomeDisciplina" content="portariaAjusteCurricularInput?.nomeDisciplina" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Dt-BeK02EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_xYoq0bAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.nomeDisciplina" content="portariaAjusteCurricularInput?.nomeDisciplina" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_xYoq0rAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Dt-Bea02EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setNomeDisciplina">
+            <operator xmi:type="expression:Operator" xmi:id="_xYoq07AvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setNomeDisciplina">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Dt-Beq02EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Dt-Be602EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Dt-BfK02EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_xYoq1LAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_xYoq1bAvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_xYoq1rAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Dt-Bfa02EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.descricaoEmenta" content="portariaAjusteCurricularInput?.descricaoEmenta" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Dt-Bfq02EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_xYoq17AvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.descricaoEmenta" content="portariaAjusteCurricularInput?.descricaoEmenta" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_xYoq2LAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Dt-Bf602EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setDescricaoEmenta">
+            <operator xmi:type="expression:Operator" xmi:id="_xYoq2bAvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setDescricaoEmenta">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Dt-BgK02EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Dt-Bga02EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Dt-Bgq02EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_xYoq2rAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_xYoq27AvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_xYoq3LAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Dt-Bg602EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.nomeDepartamento" content="portariaAjusteCurricularInput?.nomeDepartamento" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Dt-BhK02EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_xYoq3bAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.nomeDepartamento" content="portariaAjusteCurricularInput?.nomeDepartamento" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_xYoq3rAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Dt-Bha02EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setNomeDepartamento">
+            <operator xmi:type="expression:Operator" xmi:id="_xYoq37AvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setNomeDepartamento">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Dt-Bhq02EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Dt-Bh602EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Dt-BiK02EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_xYoq4LAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_xYoq4bAvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_xYoq4rAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Dt-Bia02EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.dataLancamento" content="portariaAjusteCurricularInput?.dataLancamento" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Dt-Biq02EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_xYoq47AvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.dataLancamento" content="portariaAjusteCurricularInput?.dataLancamento" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_xYoq5LAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Dt-Bi602EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setDataLancamento">
+            <operator xmi:type="expression:Operator" xmi:id="_xYoq5bAvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setDataLancamento">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Dt-BjK02EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Dt-Bja02EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Dt-Bjq02EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_xYoq5rAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_xYoq57AvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_xYoq6LAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Dt-Bj602EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.assinaturaDigital" content="portariaAjusteCurricularInput?.assinaturaDigital" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Dt-BkK02EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_xYoq6bAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.assinaturaDigital" content="portariaAjusteCurricularInput?.assinaturaDigital" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_xYoq6rAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Dt-Bka02EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setAssinaturaDigital">
+            <operator xmi:type="expression:Operator" xmi:id="_xYoq67AvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setAssinaturaDigital">
               <inputTypes>java.lang.Boolean</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_3qga0LA7EeuUGry6jKu2kw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3qga0bA7EeuUGry6jKu2kw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_4SCU4LA7EeuUGry6jKu2kw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3qga0rA7EeuUGry6jKu2kw" name="portariaAjusteCurricularInput.nroProcessoCriacaoDisciplina" content="portariaAjusteCurricularInput?.nroProcessoCriacaoDisciplina" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_9Iu-ELA7EeuUGry6jKu2kw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_3qga07A7EeuUGry6jKu2kw" type="JAVA_METHOD" expression="setNroProcessoCriacaoDisciplina">
+              <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
           <loopCondition xmi:type="expression:Expression" xmi:id="_JJcS8K0zEeuvSOVcsXUZdQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
@@ -324,23 +360,26 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_JJcS9K0zEeuvSOVcsXUZdQ" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_JJcS860zEeuvSOVcsXUZdQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_acyDB60zEeuvSOVcsXUZdQ">
-            <targetForm xmi:type="expression:Expression" xmi:id="_acyDCK0zEeuvSOVcsXUZdQ" name="formularioAssinaturaPortaria" content="bda36800-1d07-49d5-8a61-c7e0f83f016e" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_US_MYLEnEeuf0e7JypUhFQ" name="formularioPublicacaoPortaria" content="71146179-cf3b-4144-b0d4-c19d1003e971" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_acyDBq0zEeuvSOVcsXUZdQ">
-            <inputs xmi:type="process:ContractInput" xmi:id="_Dt8zQK02EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" dataReference="portariaAjusteCurricular" createMode="false">
-              <inputs xmi:type="process:ContractInput" xmi:id="_Dt8zQa02EeuvSOVcsXUZdQ" name="cargaHorariaTotalSemanal" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Dt8zQq02EeuvSOVcsXUZdQ" name="cargaHorariaTeoricaSemestral" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Dt8zQ602EeuvSOVcsXUZdQ" name="cargaHorariaPraticaSemestral" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Dt8zRK02EeuvSOVcsXUZdQ" name="cargaHorariaTotalSemestral" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Dt8zRa02EeuvSOVcsXUZdQ" name="nroPortaria" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Dt8zRq02EeuvSOVcsXUZdQ" name="codigoDisciplina" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Dt8zR602EeuvSOVcsXUZdQ" name="nomeDocente" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Dt8zSK02EeuvSOVcsXUZdQ" name="codigoDepartamento" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Dt8zSa02EeuvSOVcsXUZdQ" name="nomeDisciplina" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Dt8zSq02EeuvSOVcsXUZdQ" name="descricaoEmenta" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Dt8zS602EeuvSOVcsXUZdQ" name="nomeDepartamento" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Dt8zTK02EeuvSOVcsXUZdQ" name="dataLancamento" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Dt8zTa02EeuvSOVcsXUZdQ" name="assinaturaDigital" type="BOOLEAN" createMode="false"/>
+            <inputs xmi:type="process:ContractInput" xmi:id="_xYoqkLAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" dataReference="portariaAjusteCurricular" createMode="false">
+              <inputs xmi:type="process:ContractInput" xmi:id="_xYoqkbAvEeutU43AkzFzNw" name="cargaHorariaTotalSemanal" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_xYoqkrAvEeutU43AkzFzNw" name="cargaHorariaTeoricaSemestral" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_xYoqk7AvEeutU43AkzFzNw" name="cargaHorariaPraticaSemestral" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_xYoqlLAvEeutU43AkzFzNw" name="cargaHorariaTotalSemestral" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_xYoqlbAvEeutU43AkzFzNw" name="nroPortaria" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_xYoqlrAvEeutU43AkzFzNw" name="codigoDisciplina" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_xYoql7AvEeutU43AkzFzNw" name="nomeProReitorGrad" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_xYoqmLAvEeutU43AkzFzNw" name="codigoDepartamento" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_xYoqmbAvEeutU43AkzFzNw" name="nomeDisciplina" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_xYoqmrAvEeutU43AkzFzNw" name="descricaoEmenta" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_xYoqm7AvEeutU43AkzFzNw" name="nomeDepartamento" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_xYoqnLAvEeutU43AkzFzNw" name="dataLancamento" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_xYoqnbAvEeutU43AkzFzNw" name="assinaturaDigital" type="BOOLEAN" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_2yplwLA7EeuUGry6jKu2kw" name="nroProcessoCriacaoDisciplina">
+                <mapping xmi:type="process:ContractInputMapping" xmi:id="_2yqM0LA7EeuUGry6jKu2kw"/>
+              </inputs>
             </inputs>
           </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_acyDCa0zEeuvSOVcsXUZdQ" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -356,147 +395,158 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_HDyOAK0zEeuvSOVcsXUZdQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_HDxm8K0zEeuvSOVcsXUZdQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_HDyOAa0zEeuvSOVcsXUZdQ" name="" content="" returnTypeFixed="true"/>
-          <operations xmi:type="expression:Operation" xmi:id="_Xl5qkK01EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Xl5qka01EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Xl5qkq01EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_3OpbvrAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3Opbv7AvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_3OpbwLAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Xl5qk601EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.cargaHorariaTotalSemanal" content="portariaAjusteCurricularInput?.cargaHorariaTotalSemanal" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Xl5qlK01EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3OpbwbAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.cargaHorariaTotalSemanal" content="portariaAjusteCurricularInput?.cargaHorariaTotalSemanal" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_3OpbwrAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Xl5qla01EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setCargaHorariaTotalSemanal">
+            <operator xmi:type="expression:Operator" xmi:id="_3Opbw7AvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setCargaHorariaTotalSemanal">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Xl5qlq01EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Xl5ql601EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Xl5qmK01EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_3OpbxLAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3OpbxbAvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_3OpbxrAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Xl5qma01EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.cargaHorariaTeoricaSemestral" content="portariaAjusteCurricularInput?.cargaHorariaTeoricaSemestral" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Xl5qmq01EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3Opbx7AvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.cargaHorariaTeoricaSemestral" content="portariaAjusteCurricularInput?.cargaHorariaTeoricaSemestral" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_3OpbyLAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Xl5qm601EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setCargaHorariaTeoricaSemestral">
+            <operator xmi:type="expression:Operator" xmi:id="_3OpbybAvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setCargaHorariaTeoricaSemestral">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Xl5qnK01EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Xl5qna01EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Xl5qnq01EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_3OpbyrAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3Opby7AvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_3OpbzLAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Xl5qn601EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.cargaHorariaPraticaSemestral" content="portariaAjusteCurricularInput?.cargaHorariaPraticaSemestral" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Xl5qoK01EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3OpbzbAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.cargaHorariaPraticaSemestral" content="portariaAjusteCurricularInput?.cargaHorariaPraticaSemestral" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_3OpbzrAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Xl5qoa01EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setCargaHorariaPraticaSemestral">
+            <operator xmi:type="expression:Operator" xmi:id="_3Opbz7AvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setCargaHorariaPraticaSemestral">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Xl5qoq01EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Xl5qo601EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Xl5qpK01EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_3Opb0LAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3Opb0bAvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_3Opb0rAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Xl5qpa01EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.cargaHorariaTotalSemestral" content="portariaAjusteCurricularInput?.cargaHorariaTotalSemestral" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Xl5qpq01EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3Opb07AvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.cargaHorariaTotalSemestral" content="portariaAjusteCurricularInput?.cargaHorariaTotalSemestral" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_3Opb1LAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Xl5qp601EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setCargaHorariaTotalSemestral">
+            <operator xmi:type="expression:Operator" xmi:id="_3Opb1bAvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setCargaHorariaTotalSemestral">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Xl5qqK01EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Xl5qqa01EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Xl5qqq01EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_3Opb1rAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3Opb17AvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_3Opb2LAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Xl5qq601EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.nroPortaria" content="portariaAjusteCurricularInput?.nroPortaria" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Xl5qrK01EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3Opb2bAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.nroPortaria" content="portariaAjusteCurricularInput?.nroPortaria" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_3Opb2rAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Xl5qra01EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setNroPortaria">
+            <operator xmi:type="expression:Operator" xmi:id="_3Opb27AvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setNroPortaria">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Xl5qrq01EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Xl5qr601EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Xl5qsK01EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_3Opb3LAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3Opb3bAvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_3Opb3rAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Xl5qsa01EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.codigoDisciplina" content="portariaAjusteCurricularInput?.codigoDisciplina" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Xl5qsq01EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3Opb37AvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.codigoDisciplina" content="portariaAjusteCurricularInput?.codigoDisciplina" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_3Opb4LAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Xl5qs601EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setCodigoDisciplina">
+            <operator xmi:type="expression:Operator" xmi:id="_3Opb4bAvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setCodigoDisciplina">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Xl5qtK01EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Xl5qta01EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Xl5qtq01EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_3Opb4rAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3Opb47AvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_3Opb5LAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Xl5qt601EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.nomeDocente" content="portariaAjusteCurricularInput?.nomeDocente" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Xl5quK01EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3Opb5bAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.nomeProReitorGrad" content="portariaAjusteCurricularInput?.nomeProReitorGrad" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_3Opb5rAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Xl5qua01EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setNomeDocente">
+            <operator xmi:type="expression:Operator" xmi:id="_3Opb57AvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setNomeProReitorGrad">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Xl5quq01EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Xl5qu601EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Xl5qvK01EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_3Opb6LAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3Opb6bAvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_3Opb6rAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Xl5qva01EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.codigoDepartamento" content="portariaAjusteCurricularInput?.codigoDepartamento" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Xl5qvq01EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3Opb67AvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.codigoDepartamento" content="portariaAjusteCurricularInput?.codigoDepartamento" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_3Opb7LAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Xl5qv601EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setCodigoDepartamento">
+            <operator xmi:type="expression:Operator" xmi:id="_3Opb7bAvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setCodigoDepartamento">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Xl5qwK01EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Xl5qwa01EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Xl5qwq01EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_3Opb7rAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3Opb77AvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_3Opb8LAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Xl5qw601EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.nomeDisciplina" content="portariaAjusteCurricularInput?.nomeDisciplina" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Xl5qxK01EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3Opb8bAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.nomeDisciplina" content="portariaAjusteCurricularInput?.nomeDisciplina" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_3Opb8rAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Xl5qxa01EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setNomeDisciplina">
+            <operator xmi:type="expression:Operator" xmi:id="_3Opb87AvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setNomeDisciplina">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Xl5qxq01EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Xl5qx601EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Xl5qyK01EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_3Opb9LAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3Opb9bAvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_3Opb9rAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Xl5qya01EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.descricaoEmenta" content="portariaAjusteCurricularInput?.descricaoEmenta" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Xl5qyq01EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3Opb97AvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.descricaoEmenta" content="portariaAjusteCurricularInput?.descricaoEmenta" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_3Opb-LAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Xl5qy601EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setDescricaoEmenta">
+            <operator xmi:type="expression:Operator" xmi:id="_3Opb-bAvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setDescricaoEmenta">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Xl5qzK01EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Xl5qza01EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Xl5qzq01EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_3Opb-rAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3Opb-7AvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_3Opb_LAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Xl5qz601EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.nomeDepartamento" content="portariaAjusteCurricularInput?.nomeDepartamento" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Xl5q0K01EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3Opb_bAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.nomeDepartamento" content="portariaAjusteCurricularInput?.nomeDepartamento" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_3Opb_rAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Xl5q0a01EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setNomeDepartamento">
+            <operator xmi:type="expression:Operator" xmi:id="_3Opb_7AvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setNomeDepartamento">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Xl5q0q01EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Xl5q0601EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Xl5q1K01EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_3OpcALAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3OpcAbAvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_3OpcArAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Xl5q1a01EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.dataLancamento" content="portariaAjusteCurricularInput?.dataLancamento" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Xl5q1q01EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3OpcA7AvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.dataLancamento" content="portariaAjusteCurricularInput?.dataLancamento" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_3OpcBLAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Xl5q1601EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setDataLancamento">
+            <operator xmi:type="expression:Operator" xmi:id="_3OpcBbAvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setDataLancamento">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_Xl5q2K01EeuvSOVcsXUZdQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Xl5q2a01EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Xl5q2q01EeuvSOVcsXUZdQ" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+          <operations xmi:type="expression:Operation" xmi:id="_3OpcBrAvEeutU43AkzFzNw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3OpcB7AvEeutU43AkzFzNw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_3OpcCLAvEeutU43AkzFzNw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Xl5q2601EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput.assinaturaDigital" content="portariaAjusteCurricularInput?.assinaturaDigital" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Xl5q3K01EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3OpcCbAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput.assinaturaDigital" content="portariaAjusteCurricularInput?.assinaturaDigital" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_3OpcCrAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_Xl5q3a01EeuvSOVcsXUZdQ" type="JAVA_METHOD" expression="setAssinaturaDigital">
+            <operator xmi:type="expression:Operator" xmi:id="_3OpcC7AvEeutU43AkzFzNw" type="JAVA_METHOD" expression="setAssinaturaDigital">
               <inputTypes>java.lang.Boolean</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_vbYdQLA7EeuUGry6jKu2kw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_vbYdQbA7EeuUGry6jKu2kw" name="portariaAjusteCurricular" content="portariaAjusteCurricular" type="TYPE_VARIABLE" returnType="com.company.model.Portaria">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_vykOMLA7EeuUGry6jKu2kw" name="portariaAjusteCurricular" dataType="_dRl_FK0xEeu-2IxxI52J7g" className="com.company.model.Portaria"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_vbYdQrA7EeuUGry6jKu2kw" name="portariaAjusteCurricularInput.nroProcessoCriacaoDisciplina" content="portariaAjusteCurricularInput?.nroProcessoCriacaoDisciplina" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_0Jz7QLA7EeuUGry6jKu2kw" name="portariaAjusteCurricularInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_vbYdQ7A7EeuUGry6jKu2kw" type="JAVA_METHOD" expression="setNroProcessoCriacaoDisciplina">
+              <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
           <loopCondition xmi:type="expression:Expression" xmi:id="_HDyOAq0zEeuvSOVcsXUZdQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
@@ -508,20 +558,23 @@
             <targetForm xmi:type="expression:Expression" xmi:id="_YmkdYK01EeuvSOVcsXUZdQ" name="formularioAssinaturaPortaria" content="bda36800-1d07-49d5-8a61-c7e0f83f016e" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_aH-3sK0zEeuvSOVcsXUZdQ">
-            <inputs xmi:type="process:ContractInput" xmi:id="_Xl5DgK01EeuvSOVcsXUZdQ" name="portariaAjusteCurricularInput" type="COMPLEX" dataReference="portariaAjusteCurricular" createMode="false">
-              <inputs xmi:type="process:ContractInput" xmi:id="_Xl5Dga01EeuvSOVcsXUZdQ" name="cargaHorariaTotalSemanal" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Xl5Dgq01EeuvSOVcsXUZdQ" name="cargaHorariaTeoricaSemestral" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Xl5Dg601EeuvSOVcsXUZdQ" name="cargaHorariaPraticaSemestral" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Xl5DhK01EeuvSOVcsXUZdQ" name="cargaHorariaTotalSemestral" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Xl5Dha01EeuvSOVcsXUZdQ" name="nroPortaria" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Xl5Dhq01EeuvSOVcsXUZdQ" name="codigoDisciplina" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Xl5Dh601EeuvSOVcsXUZdQ" name="nomeDocente" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Xl5DiK01EeuvSOVcsXUZdQ" name="codigoDepartamento" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Xl5Dia01EeuvSOVcsXUZdQ" name="nomeDisciplina" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Xl5Diq01EeuvSOVcsXUZdQ" name="descricaoEmenta" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Xl5Di601EeuvSOVcsXUZdQ" name="nomeDepartamento" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Xl5DjK01EeuvSOVcsXUZdQ" name="dataLancamento" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_Xl5Dja01EeuvSOVcsXUZdQ" name="assinaturaDigital" type="BOOLEAN" createMode="false"/>
+            <inputs xmi:type="process:ContractInput" xmi:id="_3OpbsLAvEeutU43AkzFzNw" name="portariaAjusteCurricularInput" type="COMPLEX" dataReference="portariaAjusteCurricular" createMode="false">
+              <inputs xmi:type="process:ContractInput" xmi:id="_3OpbsbAvEeutU43AkzFzNw" name="cargaHorariaTotalSemanal" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_3OpbsrAvEeutU43AkzFzNw" name="cargaHorariaTeoricaSemestral" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_3Opbs7AvEeutU43AkzFzNw" name="cargaHorariaPraticaSemestral" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_3OpbtLAvEeutU43AkzFzNw" name="cargaHorariaTotalSemestral" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_3OpbtbAvEeutU43AkzFzNw" name="nroPortaria" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_3OpbtrAvEeutU43AkzFzNw" name="codigoDisciplina" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_3Opbt7AvEeutU43AkzFzNw" name="nomeProReitorGrad" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_3OpbuLAvEeutU43AkzFzNw" name="codigoDepartamento" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_3OpbubAvEeutU43AkzFzNw" name="nomeDisciplina" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_3OpburAvEeutU43AkzFzNw" name="descricaoEmenta" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_3Opbu7AvEeutU43AkzFzNw" name="nomeDepartamento" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_3OpbvLAvEeutU43AkzFzNw" name="dataLancamento" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_3OpbvbAvEeutU43AkzFzNw" name="assinaturaDigital" type="BOOLEAN" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_uGV88LA7EeuUGry6jKu2kw" name="nroProcessoCriacaoDisciplina">
+                <mapping xmi:type="process:ContractInputMapping" xmi:id="_uGV88bA7EeuUGry6jKu2kw"/>
+              </inputs>
             </inputs>
           </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_aH-3s60zEeuvSOVcsXUZdQ" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -531,14 +584,14 @@
         <defaultValue xmi:type="expression:Expression" xmi:id="_9Cy_Ua00EeuvSOVcsXUZdQ" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
       </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_dRl-9K0xEeu-2IxxI52J7g">
-        <targetForm xmi:type="expression:Expression" xmi:id="_dRl-9a0xEeu-2IxxI52J7g" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_wd1G8LEmEeuf0e7JypUhFQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_dRl-9q0xEeu-2IxxI52J7g">
         <targetForm xmi:type="expression:Expression" xmi:id="_dRl-960xEeu-2IxxI52J7g" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </overviewFormMapping>
-      <connections xmi:type="process:SequenceFlow" xmi:id="_dRl--K0xEeu-2IxxI52J7g" target="_dRl-560xEeu-2IxxI52J7g" source="_dRl-460xEeu-2IxxI52J7g">
+      <connections xmi:type="process:SequenceFlow" xmi:id="_dRl--K0xEeu-2IxxI52J7g" target="_dRl-560xEeu-2IxxI52J7g" source="_dRl-460xEeu-2IxxI52J7g" isDefault="true" conditionType="DECISION_TABLE">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_dRl--a0xEeu-2IxxI52J7g"/>
-        <condition xmi:type="expression:Expression" xmi:id="_dRl--q0xEeu-2IxxI52J7g" name="" type="TYPE_CONDITION" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <condition xmi:type="expression:Expression" xmi:id="_dRl--q0xEeu-2IxxI52J7g" name="" content="" type="TYPE_CONDITION" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
       <connections xmi:type="process:SequenceFlow" xmi:id="_HEc8YK0zEeuvSOVcsXUZdQ" target="_aH9CgK0zEeuvSOVcsXUZdQ" source="_dRl-560xEeu-2IxxI52J7g">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_HEdjcK0zEeuvSOVcsXUZdQ"/>
@@ -548,9 +601,9 @@
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_JJpHQa0zEeuvSOVcsXUZdQ"/>
         <condition xmi:type="expression:Expression" xmi:id="_JJpuUK0zEeuvSOVcsXUZdQ" name="" content="" type="TYPE_CONDITION" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
-      <connections xmi:type="process:SequenceFlow" xmi:id="_enVX4K0zEeuvSOVcsXUZdQ" target="_enODIK0zEeuvSOVcsXUZdQ" source="_acu_sK0zEeuvSOVcsXUZdQ">
+      <connections xmi:type="process:SequenceFlow" xmi:id="_enVX4K0zEeuvSOVcsXUZdQ" target="_enODIK0zEeuvSOVcsXUZdQ" source="_acu_sK0zEeuvSOVcsXUZdQ" isDefault="true">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_enV-8K0zEeuvSOVcsXUZdQ"/>
-        <condition xmi:type="expression:Expression" xmi:id="_enV-8a0zEeuvSOVcsXUZdQ" name="" type="TYPE_CONDITION" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <condition xmi:type="expression:Expression" xmi:id="_enV-8a0zEeuvSOVcsXUZdQ" name="" content="" type="TYPE_CONDITION" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
       <actors xmi:type="process:Actor" xmi:id="_jJ680K00EeuvSOVcsXUZdQ" documentation="Técnico em Exercício no DEN PROGRAD" name="tecnico-exercicio-den-prograd" initiator="true"/>
       <actors xmi:type="process:Actor" xmi:id="_yPmigK00EeuvSOVcsXUZdQ" documentation="Pró reitor de graduação" name="pro-reitor-de-graduacao"/>
@@ -595,7 +648,7 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_dRl_G60xEeu-2IxxI52J7g" type="7002">
             <children xmi:type="notation:Shape" xmi:id="_dRl_HK0xEeu-2IxxI52J7g" type="3005" element="_dRl-560xEeu-2IxxI52J7g" fontName="Ubuntu" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_dRl_Ha0xEeu-2IxxI52J7g" type="5005"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dRl_Hq0xEeu-2IxxI52J7g" x="175" y="60" width="120" height="60"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dRl_Hq0xEeu-2IxxI52J7g" x="175" y="60" width="154" height="77"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_dRl_H60xEeu-2IxxI52J7g" type="3002" element="_dRl-460xEeu-2IxxI52J7g" fontName="Ubuntu">
               <children xmi:type="notation:DecorationNode" xmi:id="_dRl_IK0xEeu-2IxxI52J7g" type="5024">
@@ -605,7 +658,7 @@
             </children>
             <children xmi:type="notation:Shape" xmi:id="_ac0fQK0zEeuvSOVcsXUZdQ" type="3005" element="_acu_sK0zEeuvSOVcsXUZdQ" fontName="Ubuntu" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_ac1GUK0zEeuvSOVcsXUZdQ" type="5005"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ac0fQa0zEeuvSOVcsXUZdQ" x="498" y="95" width="120" height="60"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ac0fQa0zEeuvSOVcsXUZdQ" x="498" y="95" width="196" height="98"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_enPRQK0zEeuvSOVcsXUZdQ" type="3003" element="_enODIK0zEeuvSOVcsXUZdQ" fontName="Ubuntu">
               <children xmi:type="notation:DecorationNode" xmi:id="_enPRQq0zEeuvSOVcsXUZdQ" type="5025">
@@ -625,7 +678,7 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_Cl6Uga0zEeuvSOVcsXUZdQ" type="7002">
             <children xmi:type="notation:Shape" xmi:id="_aIAs4K0zEeuvSOVcsXUZdQ" type="3005" element="_aH9CgK0zEeuvSOVcsXUZdQ" fontName="Ubuntu" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_aIBT8K0zEeuvSOVcsXUZdQ" type="5005"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aIAs4a0zEeuvSOVcsXUZdQ" x="251" y="62" width="120" height="60"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aIAs4a0zEeuvSOVcsXUZdQ" x="251" y="81" width="204" height="102"/>
             </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_Cl5tcK0zEeuvSOVcsXUZdQ"/>

@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.0",
-  "id" : "formularioAssinaturaPortaria",
-  "name" : "formularioAssinaturaPortaria",
-  "lastUpdate" : 1620608825364,
+  "id" : "formularioPublicacaoPortaria",
+  "name" : "formularioPublicacaoPortaria",
+  "lastUpdate" : 1620608657121,
   "rows" : [
     [
       {
@@ -10,21 +10,8 @@
         "dimension" : {
           "xs" : 12
         },
-        "propertyValues" : {
-          "cssClasses" : {
-            "type" : "constant",
-            "value" : ""
-          },
-          "hidden" : {
-            "type" : "constant",
-            "value" : false
-          },
-          "repeatedCollection" : {
-            "type" : "variable",
-            "value" : ""
-          }
-        },
-        "reference" : "9f9604fc-4a4b-4100-a8e7-77f04f7aae10",
+        "propertyValues" : { },
+        "reference" : "6f10f5d5-600c-4f4a-9300-63c33c3832c1",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -51,7 +38,7 @@
                   "value" : ""
                 }
               },
-              "reference" : "bef33dfb-b6ca-4972-80d5-1457d0351839",
+              "reference" : "525bfbc3-d853-40aa-91b0-1fb28481752c",
               "hasValidationError" : false,
               "id" : "pbContainer",
               "rows" : [
@@ -90,7 +77,7 @@
                   "type" : "interpolation"
                 }
               },
-              "reference" : "6a6753a4-a767-4e44-aecc-1599840c3a86",
+              "reference" : "aa8972f1-3320-449a-bf7b-53fa9f0b6fc8",
               "hasValidationError" : false,
               "id" : "pbImage"
             },
@@ -116,7 +103,7 @@
                   "value" : ""
                 }
               },
-              "reference" : "c82e16fa-f7d3-4366-b352-0774029053a5",
+              "reference" : "595bd986-ec85-4955-8e4c-5981a79d8d5e",
               "hasValidationError" : false,
               "id" : "pbContainer",
               "rows" : [
@@ -147,7 +134,7 @@
                   "value" : ""
                 }
               },
-              "reference" : "0b3963e1-4a71-46e5-a426-bee5a787f3cd",
+              "reference" : "1afac84a-9794-4c6a-a8ce-46792d67b3c0",
               "hasValidationError" : false,
               "id" : "pbContainer",
               "rows" : [
@@ -200,7 +187,7 @@
                   "value" : "left"
                 }
               },
-              "reference" : "4863d44c-b2a0-487e-9517-6e255d984293",
+              "reference" : "67f6f024-c53b-4c15-b115-cf9675dd0dfa",
               "hasValidationError" : false,
               "id" : "pbText"
             },
@@ -226,7 +213,7 @@
                   "value" : ""
                 }
               },
-              "reference" : "1ad75fca-bffb-469b-bc59-84b9ddeb1bd6",
+              "reference" : "32c0c55f-62c8-4a9d-8235-7c3df41e38f2",
               "hasValidationError" : false,
               "id" : "pbContainer",
               "rows" : [
@@ -281,7 +268,7 @@
                   "value" : "left"
                 }
               },
-              "reference" : "d99e7edc-f80b-41de-baed-ce00413747a6",
+              "reference" : "fc3378e3-2cc3-458a-bcb8-275762a97b09",
               "hasValidationError" : false,
               "id" : "pbText"
             }
@@ -333,7 +320,7 @@
                   "value" : "left"
                 }
               },
-              "reference" : "3aaced2f-37e1-4779-803c-8c5eff596102",
+              "reference" : "b7acf69f-d490-4684-8e7b-053540232a6b",
               "hasValidationError" : false,
               "id" : "pbText"
             }
@@ -385,7 +372,7 @@
                   "value" : "left"
                 }
               },
-              "reference" : "33fbb98f-d13d-4849-89d3-f54edda4fa1d",
+              "reference" : "877b8403-3080-4705-8ac4-f41062a04b2f",
               "hasValidationError" : false,
               "id" : "pbText"
             }
@@ -437,7 +424,7 @@
                   "value" : "left"
                 }
               },
-              "reference" : "ae3a4138-939a-4905-8cf7-4d62ad960786",
+              "reference" : "c8010412-1428-4139-a70e-6d75c42b0456",
               "hasValidationError" : false,
               "id" : "pbText"
             }
@@ -477,7 +464,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "93dda7f5-6600-4b13-8ee0-0bf570c0375b",
+              "reference" : "d0b05b76-44c7-463c-9622-a4a9e2857187",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -525,7 +512,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "ad7345e0-6d2e-4f9e-aed9-5d847a7186ff",
+              "reference" : "51481cb0-9a77-4785-98be-db2e582f307f",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -540,8 +527,17 @@
         "dimension" : {
           "xs" : 12
         },
-        "propertyValues" : { },
-        "reference" : "0783cc5d-d920-40cb-8bed-8a6dcbb7d7ed",
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
+        "reference" : "2da95f5f-2c59-4be4-b28c-e31f855a6b8f",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -550,7 +546,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "07c92f68-f624-4e8a-a44b-44d5c5c861d2",
+          "reference" : "93f8127a-25ed-4868-9dde-74cdf4d9f9b0",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -570,7 +566,7 @@
                   },
                   "level" : {
                     "type" : "constant",
-                    "value" : "Level 3"
+                    "value" : "Level 4"
                   },
                   "cssClasses" : {
                     "type" : "constant",
@@ -578,7 +574,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Formulário de Aprovação de Portaria"
+                    "value" : "Formulário de Publicação da Portaria de Ajuste Curricular"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -589,7 +585,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "a5f8eed7-1048-4685-8b19-c73baeaf088b",
+                "reference" : "ed92aa52-b1e9-4423-81fa-697cdde1b59a",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -606,7 +602,8 @@
                 },
                 "propertyValues" : {
                   "repeatedCollection" : {
-                    "type" : "variable"
+                    "type" : "variable",
+                    "value" : ""
                   },
                   "hidden" : {
                     "type" : "constant",
@@ -621,7 +618,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "0651d99a-d3cb-4330-9973-8dbc8fd34242",
+                "reference" : "2d3ec411-b6c3-4185-b891-326f9fc286e7",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -661,253 +658,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Carga Horário Teórica Semestral"
-                        },
-                        "placeholder" : {
-                          "type" : "constant"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "text"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "portariaAjusteCurricular.cargaHorariaTeoricaSemestral"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "minLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "maxLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "min" : {
-                          "type" : "constant"
-                        },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
-                          "type" : "constant",
-                          "value" : 1
-                        }
-                      },
-                      "reference" : "d14bd6cd-635c-4faa-85d8-7e344bbe3d38",
-                      "hasValidationError" : false,
-                      "id" : "pbInput",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Carga Horário Prática Semestral"
-                        },
-                        "placeholder" : {
-                          "type" : "constant"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "text"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "portariaAjusteCurricular.cargaHorariaPraticaSemestral"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "minLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "maxLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "min" : {
-                          "type" : "constant"
-                        },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
-                          "type" : "constant",
-                          "value" : 1
-                        }
-                      },
-                      "reference" : "931353f8-adfb-47c1-bdc9-ce8071702070",
-                      "hasValidationError" : false,
-                      "id" : "pbInput",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Carga Horário Total Semestral"
-                        },
-                        "placeholder" : {
-                          "type" : "constant"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "text"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "portariaAjusteCurricular.cargaHorariaTotalSemestral"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "minLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "maxLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "min" : {
-                          "type" : "constant"
-                        },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
-                          "type" : "constant",
-                          "value" : 1
-                        }
-                      },
-                      "reference" : "15c975cf-fc7b-4ac1-a5d6-945021418502",
-                      "hasValidationError" : false,
-                      "id" : "pbInput",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Carga Horário Total Semanal"
+                          "value" : "Carga Horária Total Semanal"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -947,7 +698,253 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "f03a512a-672e-43d2-9239-2e80986e3210",
+                      "reference" : "98f622e0-e171-4b3e-9e63-2c604e44f613",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Carga Horária Teorica Semestral"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "portariaAjusteCurricular.cargaHorariaTeoricaSemestral"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "9320ff79-ecbd-4780-a5d5-64e4d11cadae",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Carga Horária Prática Semestral"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "portariaAjusteCurricular.cargaHorariaPraticaSemestral"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "99804039-acb9-45cf-956e-ed3c8d32d6f8",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Carga Horária Total Semestral"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "portariaAjusteCurricular.cargaHorariaTotalSemestral"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "19b6c7a4-ac11-49b6-af3b-8f2430b48dba",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -1029,7 +1026,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "2422a3f1-578c-46e1-900e-28b89cb567f4",
+                      "reference" : "57d9000d-1751-4e07-8dc5-825d6eace12b",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -1111,7 +1108,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "2799ad59-ffab-4286-aeaf-5f5814706e8c",
+                      "reference" : "bd7c5065-61c7-4f5d-97d3-cd736409d5fd",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -1172,7 +1169,7 @@
                         },
                         "required" : {
                           "type" : "constant",
-                          "value" : true
+                          "value" : false
                         },
                         "minLength" : {
                           "type" : "constant",
@@ -1193,7 +1190,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "7b80c25f-0ee6-4d54-9adb-05a4ff4198e5",
+                      "reference" : "7e8d54de-62b5-4085-95b0-c87a37147253",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -1275,7 +1272,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "6fcaa2d7-b211-49b6-a2b8-d91035b81204",
+                      "reference" : "a567fb8d-aa30-455f-af68-9fcf8e51f9f3",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -1357,7 +1354,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "b6405d2c-cedc-48d5-b147-f3c878e36464",
+                      "reference" : "ca384e7f-cc30-4528-adde-8e30d4a9cd99",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -1399,7 +1396,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Descrição da Ementa"
+                          "value" : "Descrição Ementa"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -1439,7 +1436,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "43269c2a-4ab8-4f95-befb-8e27236d7fa9",
+                      "reference" : "d973f621-b576-4737-8e10-2b545cc71f1d",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -1521,7 +1518,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "807e0412-2de5-4871-89d2-83bb47641db0",
+                      "reference" : "4d89ef73-1909-4cc0-8d74-0ca1aeec73d3",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -1603,62 +1600,10 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "4a806d23-a3b7-4b84-a85b-658cc312be5d",
+                      "reference" : "c84f2b7a-3d00-4504-8bcf-aaeb9b532859",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "xs" : 12,
-                        "sm" : 12,
-                        "md" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Default label"
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 4
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "text" : {
-                          "type" : "interpolation",
-                          "value" : "<b>Nome Pró Reitor de Graduação: </b> {{portariaAjusteCurricular.nomeProReitorGrad}}"
-                        },
-                        "alignment" : {
-                          "type" : "constant",
-                          "value" : "left"
-                        }
-                      },
-                      "reference" : "54b9a36e-327e-4552-82fe-b3e75451cc91",
-                      "hasValidationError" : false,
-                      "id" : "pbText"
                     }
                   ],
                   [
@@ -1685,11 +1630,11 @@
                         },
                         "disabled" : {
                           "type" : "constant",
-                          "value" : false
+                          "value" : true
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "<b>Assinatura Digital (Integrada com Assina.UFSC)</b>"
+                          "value" : "Assinatura Digital (vinculo com Assina.UFSC)"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -1704,9 +1649,91 @@
                           "value" : true
                         }
                       },
-                      "reference" : "45b75d36-f1a0-446d-9229-45f1b82e0ffc",
+                      "reference" : "3c86989c-48bd-4b46-b7ae-b3c2676c55c6",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Número do Processo de Criação de Disciplina"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "portariaAjusteCurricular.nroProcessoCriacaoDisciplina"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "3d2402bc-1b44-483c-b007-7d4c79db509a",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
                       "description" : ""
                     }
                   ]
@@ -1807,7 +1834,7 @@
                     "value" : ""
                   }
                 },
-                "reference" : "d0df5f08-ede7-4541-b52b-501f677142e2",
+                "reference" : "537fe343-701c-43e2-9251-fa132455b7cb",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -1857,17 +1884,9 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
-                  },
-                  "labelPosition" : {
-                    "type" : "constant",
-                    "value" : "top"
-                  },
-                  "labelWidth" : {
-                    "type" : "constant",
-                    "value" : 4
                   }
                 },
-                "reference" : "ef218681-1c90-4339-8a2d-a05e87962009",
+                "reference" : "8b5372c2-bc42-4119-a040-8a9125691ed7",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -1880,24 +1899,24 @@
   ],
   "assets" : [
     {
-      "id" : "ef412833-0137-4f24-8340-ce5e08b055e7",
-      "name" : "Coat_of_arms_of_Brazil_(grayscale).svg",
-      "type" : "img",
-      "order" : 1,
-      "external" : false
-    },
-    {
-      "id" : "fd47251a-dbb8-4dcb-9246-8cb66ddcaaa8",
+      "id" : "740363b8-783d-46d7-be23-624ad5d08fd6",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "2d0787f7-bcf6-49b6-b3ae-133963c22a32",
+      "id" : "e14ff374-1c0d-456b-bf36-8806cc0ce8f9",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "91b2a267-66bc-47e2-8e6f-bce12412d283",
+      "name" : "Coat_of_arms_of_Brazil_(grayscale).svg",
+      "type" : "img",
+      "order" : 1,
       "external" : false
     }
   ],
@@ -1932,9 +1951,9 @@
         "\treturn {",
         "\t\t//map portariaAjusteCurricular variable to expected task contract input",
         "\t\tportariaAjusteCurricularInput: {",
+        "\t\t\tcargaHorariaTotalSemanal: $data.portariaAjusteCurricular.cargaHorariaTotalSemanal !== undefined ? $data.portariaAjusteCurricular.cargaHorariaTotalSemanal : null,",
         "\t\t\tcargaHorariaTeoricaSemestral: $data.portariaAjusteCurricular.cargaHorariaTeoricaSemestral !== undefined ? $data.portariaAjusteCurricular.cargaHorariaTeoricaSemestral : null,",
         "\t\t\tcargaHorariaPraticaSemestral: $data.portariaAjusteCurricular.cargaHorariaPraticaSemestral !== undefined ? $data.portariaAjusteCurricular.cargaHorariaPraticaSemestral : null,",
-        "\t\t\tcargaHorariaTotalSemanal: $data.portariaAjusteCurricular.cargaHorariaTotalSemanal !== undefined ? $data.portariaAjusteCurricular.cargaHorariaTotalSemanal : null,",
         "\t\t\tcargaHorariaTotalSemestral: $data.portariaAjusteCurricular.cargaHorariaTotalSemestral !== undefined ? $data.portariaAjusteCurricular.cargaHorariaTotalSemestral : null,",
         "\t\t\tnroPortaria: $data.portariaAjusteCurricular.nroPortaria !== undefined ? $data.portariaAjusteCurricular.nroPortaria : null,",
         "\t\t\tcodigoDisciplina: $data.portariaAjusteCurricular.codigoDisciplina !== undefined ? $data.portariaAjusteCurricular.codigoDisciplina : null,",
@@ -1982,7 +2001,7 @@
     }
   },
   "hasValidationError" : false,
-  "uuid" : "bda36800-1d07-49d5-8a61-c7e0f83f016e",
+  "uuid" : "71146179-cf3b-4144-b0d4-c19d1003e971",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }

@@ -2,7 +2,7 @@
   "modelVersion" : "2.0",
   "id" : "portariaAjusteCurricularForm",
   "name" : "portariaAjusteCurricularForm",
-  "lastUpdate" : 1620173139702,
+  "lastUpdate" : 1620607762793,
   "rows" : [
     [
       {
@@ -10,52 +10,24 @@
         "dimension" : {
           "xs" : 12
         },
-        "propertyValues" : { },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable",
+            "value" : ""
+          }
+        },
         "reference" : "d6bbbdb2-99df-4001-a539-9e46edd3534c",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
-          [
-            {
-              "type" : "component",
-              "dimension" : {
-                "md" : 12,
-                "sm" : 12,
-                "xs" : 12,
-                "lg" : 12
-              },
-              "propertyValues" : {
-                "hidden" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "level" : {
-                  "type" : "constant",
-                  "value" : "Level 1"
-                },
-                "cssClasses" : {
-                  "type" : "constant",
-                  "value" : ""
-                },
-                "text" : {
-                  "type" : "interpolation",
-                  "value" : "{{ task.displayName }}"
-                },
-                "alignment" : {
-                  "type" : "constant",
-                  "value" : "center"
-                },
-                "dimension" : {
-                  "type" : "constant",
-                  "value" : 12
-                }
-              },
-              "reference" : "decc203b-9046-44a5-bd2a-f61bc1257069",
-              "hasValidationError" : false,
-              "id" : "pbTitle",
-              "description" : ""
-            }
-          ],
           [
             {
               "type" : "container",
@@ -79,7 +51,7 @@
                   "value" : ""
                 }
               },
-              "reference" : "74e4aa72-0180-4808-bbaa-5764036516ab",
+              "reference" : "bec25aca-31e0-4448-86a2-e49bc54bbcd7",
               "hasValidationError" : false,
               "id" : "pbContainer",
               "rows" : [
@@ -118,7 +90,7 @@
                   "type" : "interpolation"
                 }
               },
-              "reference" : "3e2fafe6-b3ee-4172-a089-17bcad3e64fb",
+              "reference" : "b71c0362-a81c-46eb-9a99-1c0a00686e28",
               "hasValidationError" : false,
               "id" : "pbImage"
             },
@@ -144,7 +116,7 @@
                   "value" : ""
                 }
               },
-              "reference" : "2bdfedf1-70c8-47eb-94f5-feae24037b4e",
+              "reference" : "b02cb9af-9347-47de-acd1-f74ce791595b",
               "hasValidationError" : false,
               "id" : "pbContainer",
               "rows" : [
@@ -175,7 +147,7 @@
                   "value" : ""
                 }
               },
-              "reference" : "37f19643-4484-4a8b-8f7c-9a09b4e29460",
+              "reference" : "8e062f95-735f-449f-bf96-61e2b723ace7",
               "hasValidationError" : false,
               "id" : "pbContainer",
               "rows" : [
@@ -225,10 +197,10 @@
                 },
                 "alignment" : {
                   "type" : "constant",
-                  "value" : "left"
+                  "value" : "center"
                 }
               },
-              "reference" : "5405f7b1-6a06-4bf3-b0f0-b188a47a815a",
+              "reference" : "887a2aec-1717-486e-9e2d-f7cd0568ca40",
               "hasValidationError" : false,
               "id" : "pbText"
             },
@@ -254,12 +226,261 @@
                   "value" : ""
                 }
               },
-              "reference" : "5248c92d-8961-4160-9d87-fcf9330f2a00",
+              "reference" : "18de729e-ae76-4f06-8f6d-e50a71b83587",
               "hasValidationError" : false,
               "id" : "pbContainer",
               "rows" : [
                 [ ]
               ]
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Default label"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "PORTARIA Nº {{portariaAjusteCurricular.nroPortaria}}/{{current_year}}/PROGRAD, DE {{portariaAjusteCurricular.dataLancamento}}"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "left"
+                }
+              },
+              "reference" : "f1badd2f-fc8a-4f9c-88e3-3d25715763bc",
+              "hasValidationError" : false,
+              "id" : "pbText"
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Default label"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "O PRÓ-REITOR DE GRADUAÇÃO DA UNIVERSIDADE FEDERAL DE SANTA CATARINA, no uso de suas atribuições estatutárias e regimentais, tendo em vista o que consta do Processo de criação e gestão de disciplinas nº {{portariaAjusteCurricular.nroProcessoCriacaoDisciplina}}/{{current_year}} do {{portariaAjusteCurricular.nomeDepartamento}},"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "left"
+                }
+              },
+              "reference" : "5405f7b1-6a06-4bf3-b0f0-b188a47a815a",
+              "hasValidationError" : false,
+              "id" : "pbText"
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Default label"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "RESOLVE:"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "left"
+                }
+              },
+              "reference" : "bacf8019-7353-4c75-bb79-0b6fd406b1bb",
+              "hasValidationError" : false,
+              "id" : "pbText"
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Default label"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "<b>Art. 1º</b> – Criar a disciplina especificada a seguir:"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "left"
+                }
+              },
+              "reference" : "032c7add-28f1-4e4e-9036-cd64c09ece29",
+              "hasValidationError" : false,
+              "id" : "pbText"
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "level" : {
+                  "type" : "constant",
+                  "value" : "Level 1"
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "{{ task.displayName }}"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "center"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                }
+              },
+              "reference" : "decc203b-9046-44a5-bd2a-f61bc1257069",
+              "hasValidationError" : false,
+              "id" : "pbTitle",
+              "description" : ""
             }
           ],
           [
@@ -331,7 +552,16 @@
         "dimension" : {
           "xs" : 12
         },
-        "propertyValues" : { },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
         "reference" : "44ac0482-12ee-4e36-9f29-2a71c4195e3e",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
@@ -369,7 +599,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Portaria Ajuste Curricular"
+                    "value" : "Formulário de Criação da Portaria de Ajuste Curricular"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -453,71 +683,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Carga Horaria Total Semanal"
-                        },
-                        "placeholder" : {
-                          "type" : "constant"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "text"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "portariaAjusteCurricular.cargaHorariaTotalSemanal"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        }
-                      },
-                      "reference" : "441b89b6-fa83-4bd9-b7fb-860496c9a228",
-                      "hasValidationError" : false,
-                      "id" : "pbInput",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Carga Horaria Teorica Semestral"
+                          "value" : "Carga Horária Teórica Semestral"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -537,6 +703,24 @@
                         "required" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "48298a96-3de8-4bfb-be97-8f252d6c6f3a",
@@ -581,7 +765,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Carga Horaria Pratica Semestral"
+                          "value" : "Carga Horária Prática Semestral"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -601,6 +785,24 @@
                         "required" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "b13fd76b-f0ec-4f19-80a5-90c33742d2ca",
@@ -645,7 +847,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Carga Horaria Total Semestral"
+                          "value" : "Carga Horária Total Semestral"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -660,11 +862,29 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "portariaAjusteCurricular.cargaHorariaTotalSemestral"
+                          "value" : "cargaHorariaTotalSemestral"
                         },
                         "required" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "7c0dd7b2-fb74-4bfe-98bd-0e8fbbe60bdf",
@@ -709,7 +929,166 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Nro Portaria"
+                          "value" : "Carga Horária Total Semanal"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "cargaHorariaTotalSemanal"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "441b89b6-fa83-4bd9-b7fb-860496c9a228",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "xs" : 12,
+                        "sm" : 12,
+                        "md" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Número do Processo de Criação da Disciplina"
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        },
+                        "placeholder" : {
+                          "type" : "interpolation"
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "portariaAjusteCurricular.nroProcessoCriacaoDisciplina"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "f4b0ff14-8c11-4d5a-b40b-23dc67c57750",
+                      "hasValidationError" : false,
+                      "id" : "pbInput"
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Número da Portaria"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -729,6 +1108,24 @@
                         "required" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "ce1ca3dd-08d9-40b2-8b4b-c3b285c5dec7",
@@ -773,7 +1170,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Codigo Disciplina"
+                          "value" : "Código Disciplina"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -793,6 +1190,24 @@
                         "required" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "f8c7e4b1-8fee-4c53-b252-78fa3ae34a92",
@@ -837,71 +1252,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Nome Docente"
-                        },
-                        "placeholder" : {
-                          "type" : "constant"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "text"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "portariaAjusteCurricular.nomeDocente"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        }
-                      },
-                      "reference" : "0686f0b2-2167-4569-a99e-1f9ceea8d5ae",
-                      "hasValidationError" : false,
-                      "id" : "pbInput",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Codigo Departamento"
+                          "value" : "Código da Departamento"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -921,6 +1272,24 @@
                         "required" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "d017c8f5-dc11-4ddd-85c5-ae1fa7f08ed3",
@@ -965,7 +1334,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Nome Disciplina"
+                          "value" : "Nome da Disciplina"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -985,6 +1354,24 @@
                         "required" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "fce2c8f0-7cb9-46c2-a696-5a7551b65e77",
@@ -1029,7 +1416,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Descricao Ementa"
+                          "value" : "Descrição Ementa"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -1049,6 +1436,24 @@
                         "required" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "3fe9531c-b55c-4aa0-82ec-859800c1f493",
@@ -1093,7 +1498,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Nome Departamento"
+                          "value" : "Nome do Departamento"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -1113,6 +1518,24 @@
                         "required" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "78f10634-0aad-4eff-aec2-2bae69728d6e",
@@ -1157,7 +1580,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Data Lancamento"
+                          "value" : "Data de Lancamento"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -1172,17 +1595,87 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "portariaAjusteCurricular.dataLancamento"
+                          "value" : "dataLancamento | uiDate:'yyyy-MM-dd'"
                         },
                         "required" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "603bd1e7-6397-4731-9b86-d264e06ae014",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "xs" : 12,
+                        "sm" : 12,
+                        "md" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Default label"
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "<b>Pró Reitor de Graduação: </b> {{proReitorGraduacaoAtual[1].firstname}} {{proReitorGraduacaoAtual[1].lastname}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        }
+                      },
+                      "reference" : "17f468cf-8fcc-4678-a0e2-f174b4afa48e",
+                      "hasValidationError" : false,
+                      "id" : "pbText"
                     }
                   ]
                 ]
@@ -1206,7 +1699,7 @@
                     "value" : false
                   },
                   "cssClasses" : {
-                    "type" : "constant",
+                    "type" : "expression",
                     "value" : ""
                   },
                   "buttonStyle" : {
@@ -1252,11 +1745,34 @@
                   },
                   "alignment" : {
                     "type" : "constant",
-                    "value" : "center"
+                    "value" : "right"
                   },
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "assign" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "url" : {
+                    "type" : "interpolation"
+                  },
+                  "responseStatusCode" : {
+                    "type" : "variable",
+                    "value" : ""
+                  },
+                  "dataFromSuccess" : {
+                    "type" : "variable",
+                    "value" : ""
+                  },
+                  "closeOnSuccess" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "modalId" : {
+                    "type" : "constant",
+                    "value" : ""
                   }
                 },
                 "reference" : "96131272-221b-4274-ad11-d1f11ee236f0",
@@ -1309,6 +1825,14 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
                   }
                 },
                 "reference" : "926ff0b8-69d0-4483-b70e-3e2ffa1e617a",
@@ -1376,18 +1900,22 @@
         "\treturn {",
         "\t\t//map portariaAjusteCurricular variable to expected task contract input",
         "\t\tportariaAjusteCurricularInput: {",
-        "\t\t\tcargaHorariaTotalSemanal: $data.portariaAjusteCurricular.cargaHorariaTotalSemanal !== undefined ? $data.portariaAjusteCurricular.cargaHorariaTotalSemanal : null,",
         "\t\t\tcargaHorariaTeoricaSemestral: $data.portariaAjusteCurricular.cargaHorariaTeoricaSemestral !== undefined ? $data.portariaAjusteCurricular.cargaHorariaTeoricaSemestral : null,",
         "\t\t\tcargaHorariaPraticaSemestral: $data.portariaAjusteCurricular.cargaHorariaPraticaSemestral !== undefined ? $data.portariaAjusteCurricular.cargaHorariaPraticaSemestral : null,",
-        "\t\t\tcargaHorariaTotalSemestral: $data.portariaAjusteCurricular.cargaHorariaTotalSemestral !== undefined ? $data.portariaAjusteCurricular.cargaHorariaTotalSemestral : null,",
+        "\t\t\tcargaHorariaTotalSemanal: $data.cargaHorariaTotalSemanal !== undefined ? $data.cargaHorariaTotalSemanal : null,",
+        "\t\t\tcargaHorariaTotalSemestral: $data.cargaHorariaTotalSemestral !== undefined ? $data.cargaHorariaTotalSemestral : null,",
+        "",
         "\t\t\tnroPortaria: $data.portariaAjusteCurricular.nroPortaria !== undefined ? $data.portariaAjusteCurricular.nroPortaria : null,",
         "\t\t\tcodigoDisciplina: $data.portariaAjusteCurricular.codigoDisciplina !== undefined ? $data.portariaAjusteCurricular.codigoDisciplina : null,",
-        "\t\t\tnomeDocente: $data.portariaAjusteCurricular.nomeDocente !== undefined ? $data.portariaAjusteCurricular.nomeDocente : null,",
+        "\t\t\tnomeProReitorGrad: $data.portariaAjusteCurricular.nomeProReitorGrad !== undefined ? $data.portariaAjusteCurricular.nomeProReitorGrad : null,",
         "\t\t\tcodigoDepartamento: $data.portariaAjusteCurricular.codigoDepartamento !== undefined ? $data.portariaAjusteCurricular.codigoDepartamento : null,",
         "\t\t\tnomeDisciplina: $data.portariaAjusteCurricular.nomeDisciplina !== undefined ? $data.portariaAjusteCurricular.nomeDisciplina : null,",
         "\t\t\tdescricaoEmenta: $data.portariaAjusteCurricular.descricaoEmenta !== undefined ? $data.portariaAjusteCurricular.descricaoEmenta : null,",
         "\t\t\tnomeDepartamento: $data.portariaAjusteCurricular.nomeDepartamento !== undefined ? $data.portariaAjusteCurricular.nomeDepartamento : null,",
-        "\t\t\tdataLancamento: $data.portariaAjusteCurricular.dataLancamento !== undefined ? $data.portariaAjusteCurricular.dataLancamento : null,",
+        "",
+        "\t\t\tdataLancamento: $data.dataLancamento !== undefined ? $data.dataLancamento : null,",
+        "\t\t\tnroProcessoCriacaoDisciplina: $data.portariaAjusteCurricular.nroProcessoCriacaoDisciplina !== undefined ? $data.portariaAjusteCurricular.nroProcessoCriacaoDisciplina : null,",
+        "",
         "\t\t\tassinaturaDigital: $data.portariaAjusteCurricular.assinaturaDigital !== undefined ? $data.portariaAjusteCurricular.assinaturaDigital : null",
         "\t\t}",
         "\t}",
@@ -1413,6 +1941,58 @@
       "type" : "url",
       "value" : [
         "../{{context.portariaAjusteCurricular_ref.link}}"
+      ],
+      "exposed" : false
+    },
+    "current_year" : {
+      "type" : "expression",
+      "value" : [
+        "return new Date().getFullYear();"
+      ],
+      "exposed" : false
+    },
+    "cargaHorariaTotalSemestral" : {
+      "type" : "expression",
+      "value" : [
+        "return `${parseInt($data.portariaAjusteCurricular.cargaHorariaTeoricaSemestral || 0) + parseInt($data.portariaAjusteCurricular.cargaHorariaPraticaSemestral || 0)}`;"
+      ],
+      "exposed" : false
+    },
+    "cargaHorariaTotalSemanal" : {
+      "type" : "expression",
+      "value" : [
+        "return `${parseInt($data.cargaHorariaTotalSemestral || 0) / 18}`;"
+      ],
+      "exposed" : false
+    },
+    "dataLancamento" : {
+      "type" : "expression",
+      "value" : [
+        "return new Date();"
+      ],
+      "exposed" : false
+    },
+    "init" : {
+      "type" : "expression",
+      "value" : [
+        "$data.portariaAjusteCurricular.cargaHorariaTeoricaSemestral = \"36\";",
+        "$data.portariaAjusteCurricular.cargaHorariaPraticaSemestral = \"36\";",
+        "$data.portariaAjusteCurricular.nroPortaria = \"050\";",
+        "$data.portariaAjusteCurricular.codigoDisciplina = \"EDC7295\"",
+        "$data.portariaAjusteCurricular.nomeProReitorGrad = `${$data.proReitorGraduacaoAtual[1].firstname} ${$data.proReitorGraduacaoAtual[1].lastname}`;",
+        "// \"DANIEL DE SANTANA VASCONCELOS\";",
+        "$data.portariaAjusteCurricular.codigoDepartamento = \"DEC\";",
+        "$data.portariaAjusteCurricular.nomeDisciplina = \"Tópicos Especiais: questões da pandemia da COVID-19 e a educação\";",
+        "$data.portariaAjusteCurricular.descricaoEmenta = \"Tópicos Especiais sobre as questões da pandemia da COVID-19 e a educação.\";",
+        "$data.portariaAjusteCurricular.nomeDepartamento = \"Departamento de Educação do Campo\";",
+        "$data.portariaAjusteCurricular.nroProcessoCriacaoDisciplina = \"00001\";"
+      ],
+      "exposed" : false
+    },
+    "proReitorGraduacaoAtual" : {
+      "type" : "url",
+      "value" : [
+        "../API/identity/user/{{0}}?d=professional_data"
       ],
       "exposed" : false
     }
