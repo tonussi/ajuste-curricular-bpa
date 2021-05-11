@@ -13,9 +13,9 @@
                 <field type="STRING" length="255" name="nomeDisciplina" nullable="false" collection="false"/>
                 <field type="STRING" length="255" name="descricaoEmenta" nullable="false" collection="false"/>
                 <field type="STRING" length="255" name="nomeDepartamento" nullable="false" collection="false"/>
-                <field type="STRING" length="255" name="dataLancamento" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="nroProcessoCriacaoDisciplina" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="nomeProReitorGrad" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="dataLancamento" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="nroProcessoCriacaoDisciplina" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="nomeProReitorGrad" nullable="false" collection="false"/>
                 <field type="BOOLEAN" length="255" name="assinaturaDigital" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
