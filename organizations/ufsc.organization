@@ -20,6 +20,15 @@
       <password encrypted="false">van123</password>
       <customUserInfoValues/>
     </user>
+    <user userName="default">
+      <firstName>default</firstName>
+      <lastName>default</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">default</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="tecnico-exercicio-den-prograd">
@@ -28,6 +37,9 @@
     <role name="pro-reitor-graduacao">
       <displayName>pro-reitor-graduacao</displayName>
     </role>
+    <role name="default">
+      <displayName>default</displayName>
+    </role>
   </roles>
   <groups>
     <group name="pro-reitor-graduacao">
@@ -35,6 +47,9 @@
     </group>
     <group name="tecnico-exercicio-den-prograd">
       <displayName>tecnico-exercicio-den-prograd</displayName>
+    </group>
+    <group name="default">
+      <displayName>default</displayName>
     </group>
   </groups>
   <memberships>
@@ -47,6 +62,11 @@
       <userName>van</userName>
       <roleName>tecnico-exercicio-den-prograd</roleName>
       <groupName>tecnico-exercicio-den-prograd</groupName>
+    </membership>
+    <membership>
+      <userName>default</userName>
+      <roleName>default</roleName>
+      <groupName>default</groupName>
     </membership>
   </memberships>
 </organization:Organization>
