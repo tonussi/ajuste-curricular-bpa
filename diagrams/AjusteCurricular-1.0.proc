@@ -426,6 +426,8 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_FIT1AbKzEeutJdt5dtTumA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_FIT1A7KzEeutJdt5dtTumA" name="" content="" returnTypeFixed="true"/>
         </elements>
+        <elements xmi:type="process:TextAnnotation" xmi:id="_tvTqELK5EeuFad3YI00BZg" text="tarefa automatizada"/>
+        <elements xmi:type="process:TextAnnotation" xmi:id="_w6ArgLK5EeuFad3YI00BZg" text="tarefa automatizada"/>
       </elements>
       <elements xmi:type="process:Lane" xmi:id="_nPZ6ULKsEeutJdt5dtTumA" name="PRO REITOR DE GRADUACAO" actor="_yPmigK00EeuvSOVcsXUZdQ">
         <elements xmi:type="process:Task" xmi:id="_aH9CgK0zEeuvSOVcsXUZdQ" name="T40: Assinar portaria de ajuste curricular" outgoing="_JJpHQK0zEeuvSOVcsXUZdQ" incoming="_HEc8YK0zEeuvSOVcsXUZdQ" actor="_yPmigK00EeuvSOVcsXUZdQ" overrideActorsOfTheLane="false">
@@ -621,6 +623,7 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_fIYhILKyEeutJdt5dtTumA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_fIYhIrKyEeutJdt5dtTumA" name="" content="" returnTypeFixed="true"/>
         </elements>
+        <elements xmi:type="process:TextAnnotation" xmi:id="_wpY1kLK5EeuFad3YI00BZg" text="tarefa automatizada"/>
       </elements>
       <elements xmi:type="process:Lane" xmi:id="_nlMkILKsEeutJdt5dtTumA" name="SECRETARIA DA PROGRAD" actor="_QfyOILK0EeutJdt5dtTumA">
         <elements xmi:type="process:Activity" xmi:id="_T7HXcLKyEeutJdt5dtTumA" name="T60: Providenciar a organização do arquivamento na portaria" outgoing="_dcMFELKyEeutJdt5dtTumA" incoming="_gNmcwLKyEeutJdt5dtTumA">
@@ -841,6 +844,20 @@
               </children>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIVDIbKzEeutJdt5dtTumA" x="1317" y="174"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_tvkIwLK5EeuFad3YI00BZg" type="3015" element="_tvTqELK5EeuFad3YI00BZg">
+              <children xmi:type="notation:DecorationNode" xmi:id="_tvkv0LK5EeuFad3YI00BZg" type="5010"/>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_tvkIwbK5EeuFad3YI00BZg"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_tvkIwrK5EeuFad3YI00BZg" fontName="Ubuntu"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_tvkIw7K5EeuFad3YI00BZg"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tvkIxLK5EeuFad3YI00BZg" x="48" y="137"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_w6BSkLK5EeuFad3YI00BZg" type="3015" element="_w6ArgLK5EeuFad3YI00BZg">
+              <children xmi:type="notation:DecorationNode" xmi:id="_w6BSlbK5EeuFad3YI00BZg" type="5010"/>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_w6BSkbK5EeuFad3YI00BZg"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_w6BSkrK5EeuFad3YI00BZg" fontName="Ubuntu"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_w6BSk7K5EeuFad3YI00BZg"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w6BSlLK5EeuFad3YI00BZg" x="622" y="21"/>
+            </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_Cl5tcK0zEeuvSOVcsXUZdQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Cl5tca0zEeuvSOVcsXUZdQ" fontName="Ubuntu"/>
@@ -861,12 +878,19 @@
               </children>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fIYhJLKyEeutJdt5dtTumA" x="555" y="74"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_wpZcoLK5EeuFad3YI00BZg" type="3015" element="_wpY1kLK5EeuFad3YI00BZg">
+              <children xmi:type="notation:DecorationNode" xmi:id="_wpZcpbK5EeuFad3YI00BZg" type="5010"/>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_wpZcobK5EeuFad3YI00BZg"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_wpZcorK5EeuFad3YI00BZg" fontName="Ubuntu"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_wpZco7K5EeuFad3YI00BZg"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wpZcpLK5EeuFad3YI00BZg" x="245" y="10"/>
+            </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_nPbIcbKsEeutJdt5dtTumA"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_nPbIcrKsEeutJdt5dtTumA" fontName="Ubuntu"/>
           <styles xmi:type="notation:LineStyle" xmi:id="_nPbIc7KsEeutJdt5dtTumA"/>
           <styles xmi:type="notation:FillStyle" xmi:id="_nPbId7KsEeutJdt5dtTumA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nPbIdLKsEeutJdt5dtTumA" x="48" y="493" width="1516" height="196"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nPbIdLKsEeutJdt5dtTumA" x="48" y="565" width="1516" height="218"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_nlNyQLKsEeutJdt5dtTumA" type="3007" element="_nlMkILKsEeutJdt5dtTumA">
           <children xmi:type="notation:DecorationNode" xmi:id="_nlNyRbKsEeutJdt5dtTumA" type="5007"/>
